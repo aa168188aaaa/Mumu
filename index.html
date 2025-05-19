@@ -1,0 +1,92 @@
+﻿<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MuMu模拟器</title>
+        <link rel="shortcut icon" href="./assets/images/logo.jpg">
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="static/css/css2.css" rel="stylesheet">
+        <style>
+            video {
+                margin-top: 20px;
+                width: 732px;
+                height: 103%;
+                border-radius: 10px;
+            }
+
+            .banner-wrap {
+                background-color: #010004;
+            }
+
+            * {
+                cursor: default;
+                font-family: "Roboto", sans-serif;
+            }
+        </style>
+        <script src="static/js/jquery.min.js"></script>
+    </head>
+
+    <body cz-shortcut-listen="true" style="cursor: default;">
+        <div onclick="clickCollect">
+            <div style="background-color: #333;">
+                <div class="banner-wrap">
+                    <div class="banner-img">
+                        <video src="./assets/mp4/66ebea6035314d0f711f12caPblqP15w05.mp4" muted="muted" autoplay="autoplay" loop="loop"></video>
+                    </div>
+                    <div class="banner-info">
+                        <h1>
+                            <img src="static/picture/logo.jpg" alt="">
+                            <span>MuMu模拟器</span>
+                        </h1>
+                        <ul class="text">
+                            <li>
+                                <span class="text-label">版本：</span>
+                                <span class="text-value" id="versionNumber" style="font-weight: 700;">V24.11.9.1</span>
+                            </li>
+                            <li>
+                                <span class="text-label">软件授权：</span>
+                                <span class="text-value">免费软件</span>
+                            </li>
+                            <li>
+                                <span class="text-label">更新时间：</span>
+                                <span class="text-value updateTime">2025-05-07</span>
+                            </li>
+                            <li>
+                                <span class="text-label">系统平台：</span>
+                                <span class="text-value">Win7/WinVista/WinXP/Win8/Win10兼容软件</span>
+                            </li>
+                        </ul>
+                        <a href="javascript:onDownload();" class="download-btn downloadLink"><img src="static/picture/download_ico.png">立即下载</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrap">
+                <div class="left center">
+                    <h2>焕新引擎 释放性能</h2>
+                    <img src="static/picture/foot2.png">
+                </div>
+                <div class="right center">
+                    <h2>自由多开 畅玩自如</h2>
+                    <img src="static/picture/foot1.png">
+                </div>
+            </div>
+            <div class="instruction">
+                软件介绍：
+                <p>
+                    MuMu模拟器一款针对手游玩家开发的安卓模拟器软件。MuMu模拟器下载安装后可在电脑上运行各类游戏与应用，具备全面兼容、操作流畅、智能辅助等特点。MuMu模拟器每天还会为您推荐火热的应用和好玩的游戏，给你带来电脑玩手游的无限乐趣。
+                </p>
+                <p></p>
+            </div>
+            <div class="foot">
+                <div>
+                    <img src="static/picture/logo.jpg" class="foot-logo">
+                    <span style="font-size: 20px; vertical-align: middle;">MuMu模拟器</span>
+                </div>
+                <div style="font-size: 24px; font-weight: 600;">MuMu模拟器PC版</div>
+                <a href="javascript:onDownload();" class="foot-download-btn downloadLink"><img src="static/picture/download_ico.png" style="width: 20px; vertical-align: middle; margin-right: 10px;">立即下载</a>
+            </div>
+        </div>
+    </body>
+</html>
